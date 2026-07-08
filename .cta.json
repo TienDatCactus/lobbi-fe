@@ -2,15 +2,24 @@
   "projectName": "lobbi",
   "mode": "file-router",
   "typescript": true,
-  "packageManager": "pnpm",
+  "packageManager": "npm",
   "includeExamples": false,
   "tailwind": true,
   "addOnOptions": {},
   "envVarValues": {},
   "git": true,
-  "install": false,
+  "install": true,
   "routerOnly": false,
   "version": 1,
   "framework": "react",
-  "chosenAddOns": ["compiler", "form", "t3env", "table", "tanstack-query"]
+  "chosenAddOns": [
+    "biome",
+    "ai",
+    "compiler",
+    "form",
+    "t3env",
+    "table",
+    "tanstack-query",
+    "store"
+  ]
 }
